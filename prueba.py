@@ -19,7 +19,7 @@ def division(a,b):
     if b != 0:
         return a / b
     else:
-        return "Error: division by zero"
+        return "Error: invalid division"
 
 if __name__ == "__main__":
     print("=== Calculator App ===")
