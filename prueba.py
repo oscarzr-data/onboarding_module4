@@ -5,11 +5,11 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def suma(a,b):
-    logging.info("Running suma")
+    logging.info("Prueba merge conflict")
     return a + b
 
 def resta(a,b):
-    logging.info("Running resta")
+    print("Prueba merge conflict")
     return a - b
 
 def multiplicacion(a,b):
