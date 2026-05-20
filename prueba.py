@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def suma(a,b):
-    logging.info("Prueba merge conflict")
+    result = a + b
     return a + b
 
 def resta(a,b):
@@ -19,7 +19,7 @@ def division(a,b):
     if b != 0:
         return a / b
     else:
-        return "Error: division by zero"
+        return "Division by zero is not allowed"
 
 if __name__ == "__main__":
     print("=== Calculator App ===")
