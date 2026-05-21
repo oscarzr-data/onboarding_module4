@@ -10,3 +10,7 @@ For the repository governance:
 
 A Ruleset I added is to protect main branch by forcing each PR has at least 1 approval from collaborators to be able to merge to main.
 Only admin can bypass this rule.
+
+Rule check
+
+![alt text](image-1.png)
